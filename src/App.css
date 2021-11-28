@@ -425,6 +425,10 @@ header .navbar {
   border-radius: 12px;
 }
 
+.popup-card-container svg{
+  width: 22px;
+}
+
 .modal-content{
   border-radius: 14px !important;
 }
@@ -965,7 +969,7 @@ header .navbar {
   background: #cdcdcd;
   border: none;
   border-radius: 10px;
-  color: var(--white);
+  color: var(--black);
   font-size: 14px;
   font-family: var(--amitSemi);
 }
@@ -987,7 +991,7 @@ header .navbar {
 .stake-btn .btn {
   background: var(--primary);
   font-size: 14px;
-  color: var(--white);
+  color: var(--black);
   font-family: var(--amitSemi);
   padding: 15px 40px 11px 40px;
   border-radius: 6px;
@@ -1032,7 +1036,6 @@ select::-ms-expand {
 .closebtn {
   background: none;
   border: none;
-  position: absolute;
   width: 30px;
   height: 30px;
 }
@@ -1186,7 +1189,7 @@ select::-ms-expand {
 	background: #cdcdcd;
 	border: none;
 	border-radius: 10px;
-	color: var(--white);
+	color: var(--black);
 	padding: 12px 24px 10px 24px !important;
 	font-family: var(--amitSemi);
 }
@@ -1955,4 +1958,69 @@ div.acc-heading-text h2 > span {
   .admin_amend_inputs .inputs input{
     width: 100%;
   }
+}
+
+.bonds_data_set_coin_icons:nth-child(2) svg{
+    margin-left: -5px;
+} 
+
+.cursor-pointer:hover{
+  cursor: pointer;
+}
+
+.text-gold{
+  color: #F6CE0E;
+}
+
+.boundTabs_container{
+  padding: 10px;
+  border: solid 1px #CDCDCD !important;
+  border-radius: 12px;
+  width: 100%;
+}
+
+.boundTabs_container button{
+  width: 50%;
+  border-radius: 12px;
+  background: #fff;
+  padding: 10px;
+  border: none;
+}
+
+
+.boundTabs_container button.active{
+  background: var(--bs-gray-900);
+  color: var(--white);
+}
+
+@media only screen and (max-width: 768px){
+  .list-stake .list-stake-flexbox{
+    flex-direction: column;
+    margin-top: 15px;
+  }
+}
+
+.slippage_input_container{
+  border: solid 1px #DCDCDC;
+  display: flex;
+  padding: 4px 15px;
+  width: 100%;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.slippage_input_container input{
+  border: none;
+  background: none;
+  color: var(--color7);
+}
+
+.pl-3{
+  padding-left: 15px;
+}
+
+.slippage_description{
+  color: #aaa;
 }

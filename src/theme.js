@@ -2,7 +2,6 @@ import {createGlobalStyle} from 'styled-components';
 import moon from '../src/assets/images/moon.png';
 import sun from '../src/assets/images/sun.png';
 
-
 export const lightTheme = {
     body: '#fff',
     fontColor: '#fff',
@@ -38,6 +37,14 @@ body{
   box-shadow: none;
 }
 
+.bonds_data_set_coin_icons svg path, .bonds_data_set_coin_icons.eth svg circle{
+  fill: ${props => props.theme.black};
+}
+
+.bonds_data_set_coin_icons.eth svg path{
+  fill: ${props => props.theme.white};
+}
+
 #F7CE0E;
 .Play-Game ul li::before {
   background: ${props => props.theme.backgroundColor};
@@ -55,7 +62,7 @@ body{
     background-repeat: no-repeat;
     background-position: center;
   }
-  .s-box h3, .s-box h5, .s-box i, .stake-btn .btn, .approve-btn{
+  .s-box h3, .s-box h5, .s-box i, .approve-btn, .table-btn{
     color: ${props => props.theme.fontColor} !important;
   }
   .navbar-expand-lg .navbar-nav .nav-item .sub-menu li a {
