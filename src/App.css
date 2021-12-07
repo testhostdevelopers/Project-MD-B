@@ -1303,7 +1303,7 @@ table.stake-list-sel.fliter-box td:last-child {
 	transform: translateY(-50%);
 }
 .heading-text-popupm h5 {
-	margin-top: 9px !important;
+	margin-top: -23px !important;
 	font-family: var(--amitSemi);
 	font-size: 14px;
 	line-height: 16px;

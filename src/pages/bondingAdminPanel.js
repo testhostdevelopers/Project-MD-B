@@ -310,6 +310,40 @@ export default function AdminDashboard() {
 
             {/* Modal */}
 
+            <div class="modal fade" id="amendPopup" tabIndex="-1" aria-labelledby="amendPopup" aria-hidden="true">
+            <div class="modal-dialog">
+               <div class="modal-content">
+                  <div class="modal-body popup-card-container rel">
+                     <button type="button" class="closebtn" data-bs-dismiss="modal" aria-label="Close">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M11 17l-5-5m0 0l5-5m-5 5h12" />
+                        </svg>
+                     </button>
+                     <div className="heading-text-popupm">
+                        <h5 className="my-3 text-center ">MsDoge Bonding Amendment</h5>
+                        <form action="">
+                           <div className="input-bal">
+                              <div className="row">
+                                 <div className="mb-4 col-sm-12 d-flex justify-content-between">
+                                    <div><small><b>Cryptoloria APY (%)</b></small></div>
+                                    <div><small>360</small></div>
+                                 </div>
+
+                                 <div className="col-sm-12">
+                                    <div className="p-2 stake-btn">
+                                       <button type="button" className="table-btn btn py-2 px-4 w-100 mb-3">Amend</button>
+                                       <div class="closebtn" data-bs-dismiss="modal" aria-label="Close" className="claim-btn-failed color5 py-2 px-4 w-100 text-center"><b>Cancel</b></div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </form>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+
          
             <Footer />
         </React.Fragment>
