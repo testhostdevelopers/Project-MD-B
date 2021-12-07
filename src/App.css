@@ -2024,3 +2024,108 @@ div.acc-heading-text h2 > span {
 .slippage_description{
   color: #aaa;
 }
+
+.btn-primary{
+  background-color: var(--primary) !important;
+  color: var(--white);
+  padding: 8px 30px;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  transition: ease .3s all;
+}
+
+.btn-primary:focus{
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.btn-primary:active{
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.btn-primary:hover{
+  background-color: #dbb80b !important;
+  transition: ease .3s all;
+}
+
+.btn-gray{
+  background-color: #979797 !important;
+  color: var(--white);
+  padding: 8px 30px;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  transition: ease .3s all;
+}
+
+.btn-gray:focus{
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.btn-gray:active{
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.btn-gray:hover{
+  background-color: #7d7d7d !important;
+  transition: ease .3s all;
+}
+
+/*** Redio Button***/
+
+.custom02 input[type="radio"] {
+	display: none;
+}
+.custom02 label {
+	position: relative;
+	display: inline-block;
+	padding: 3px 3px 3px 20px;
+	cursor: pointer;
+}
+.custom02 label::before,
+.custom02 label::after {
+	position: absolute;
+	content: '';
+	top: 50%;
+	border-radius: 100%;
+	-webkit-transition: all .2s;
+	transition: all .2s;
+}
+.custom02 label::before {
+	left: 0;
+	width: 16px;
+	height: 16px;
+	margin-top: -8px;
+	background: #fff;
+	border: 1px solid #F6CE0E;
+}
+.custom02 label:hover::before {
+	background: #fff;
+}
+.custom02 label::after {
+	opacity: 0;
+	left: 4px;
+	width: 8px;
+	height: 8px;
+	margin-top: -4px;
+	background: #F6CE0E;
+	-webkit-transform: scale(2);
+	transform: scale(2);
+}
+.custom02 input[type="radio"]:checked + label::before {
+	background: #fff;
+	border: 1px solid #F6CE0E;
+}
+.custom02 input[type="radio"]:checked + label::after {
+	opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}

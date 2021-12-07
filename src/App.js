@@ -3,6 +3,7 @@ import React from "react";
 import './App.css';
 import Coin from './pages/coin';
 import adminDahboard from './pages/adminDashboard';
+import bondingAdmin from './pages/bondingAdminPanel';
 
 import {
   BrowserRouter as Router, Switch, Route,
@@ -30,6 +31,7 @@ function App() {
         <Switch>
           <Route path="/" component={Coin} exact />
           <Route path="/admin-dashboard" component={adminDahboard} exact />
+          <Route path="/bonding-admin" component={bondingAdmin} exact />
         </Switch>
       </Router>
       {/* </StyledApp> */}

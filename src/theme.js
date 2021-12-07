@@ -80,7 +80,7 @@ body{
     color: ${props => props.theme.text};
   }
   .form-field .dropdown-body .dropdown-item:hover,
-  .form-field .dropdown-body .dropdown-item {
+  .form-field .dropdown-body .dropdown-item,.coin-main h4, .coin-main label {
     color: ${props => props.theme.text};
   }
 

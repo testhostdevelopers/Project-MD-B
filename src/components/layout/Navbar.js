@@ -65,7 +65,7 @@ return (
                      <li className="nav-item">
                         <a className="nav-link active" href="/">Home</a>
                      </li>
-                     <li className={`nav-item has-submenu ${isActive ? "hide-menu" : "show-menu"}`}>
+                     {/* <li className={`nav-item has-submenu ${isActive ? "hide-menu" : "show-menu"}`}>
                         <a className="nav-link" href="#0" onClick={handleToggle}>Stake</a>
                         <ul className="sub-menu">
                            {SubMenu.map((SubMenu, idx) => (
@@ -76,6 +76,9 @@ return (
                               </li>
                            ))}
                         </ul>
+                     </li> */}
+                      <li className="nav-item">
+                        <a className="nav-link active" href="/">Stake</a>
                      </li>
                   </ul>
                   <div className="float-end d-none d-lg-block">
